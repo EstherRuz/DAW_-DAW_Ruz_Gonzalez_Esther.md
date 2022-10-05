@@ -3,6 +3,8 @@
 remarcando sus diferencias.
 GET: los datos que se envian al servidor se escriven en la url, por lo que estan visibles.
 POST: los datos que se envian al servidor se encuentran en la solicitud HTTP, no quedan visibles para el usuario.
+PUT: crea un nuevo elemento o lo reemplaza.
+
 
 2. Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador
 su funcionamiento adjuntando una captura de pantalla.
