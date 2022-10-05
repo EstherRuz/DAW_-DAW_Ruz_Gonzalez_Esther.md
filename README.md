@@ -14,7 +14,7 @@ DELETE: borra un recurso en específico.
 2. Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador
 su funcionamiento adjuntando una captura de pantalla.
 
-![Alt text](/Captura de pantalla 2022-10-05 121856)
+![Alt text](/abc.png)
 
 3. Explica como activar, desactivar, reiniciar y recargar un servidor de Apache2
 explicando la diferencia entre cada uno de los comandos utilizados.
