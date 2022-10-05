@@ -18,19 +18,39 @@ su funcionamiento adjuntando una captura de pantalla.
 
 3. Explica como activar, desactivar, reiniciar y recargar un servidor de Apache2
 explicando la diferencia entre cada uno de los comandos utilizados.
-Activar:
-Desactivar:
-Reiniciar:
-Recargar:
+
+Activar:sudo systemctl start apache2
+
+Desactivar: sudo systemctl stop apache2
+
+Reiniciar: sudo systemctl restart apache2
+
+Recargar: sudo systemctl reload apache2
 
 4. ¿Dónde se encuentran los ficheros de configuración de Apache2?
-.
+/etc/apache2
+
 5. ¿Dónde se encuentran los ficheros de ejecución de Apache2?
-.
+/etc/httpd/conf/httpd. conf
+
 6. ¿Dónde se encuentran los ficheros de monitorización de Apache2?
-.
+/etc/httpd/conf/httpd. conf
+
 7. ¿Qué es un Firewall? ¿Para que funciona? ¿Por qué es necesario?
-.
+Es un programa que controla el acceso a la red de un ordenador.
+
 8. Explica con tus palabras las diferentes partes de una URL.
-.
+
+Protocolo: http o https.
+
+Host: identifica el servidor.
+
+Puerto: inica el puerto que se utilizara para acceder al recurso, 443 o 80.
+
+Ruta: localización del recurso en el servidor.
+
+Consulta: permite pasar parametros.
+
 9. Explica el funcionamiento del protocolo HTTP.
+
+Es un protocolo de tipio cliente servidor, el cliente pregunta y el servidor reponde.
